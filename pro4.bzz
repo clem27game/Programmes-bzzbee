@@ -1,0 +1,15 @@
+bzz R couleur jaune -> "Bienvenue dans le jeu de la boîte mystère 🎁"
+bzz R console -> "Tape un chiffre entre 1 et 3 pour ouvrir une boîte"
+bzz LIRE choix
+
+bzz SI choix == 1 ALORS
+bzz R couleur magenta -> "Tu as gagné... un cookie 🍪 !"
+bzz FIN
+
+bzz SI choix == 2 ALORS
+bzz R couleur cyan -> "Tu as gagné... une abeille danseuse 🐝💃 !"
+bzz FIN
+
+bzz SI choix == 3 ALORS
+bzz R couleur rouge -> "Oh non ! C’était une boîte vide 😢"
+bzz FIN

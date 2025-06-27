@@ -1,0 +1,24 @@
+# Flappy bird en BzzBee (ajoutez plus de tuyaux si vous souhaitez)
+bzz R console -> Bienvenue dans Flappy bird en BzzBee !
+bzz DORT 15000 
+bzz R console -> Vous etes en train de sauter dans les airs, un tuyau s'approche, la position est 14.80 souhaite tu sauter vers le haut ou descendre vers le bas? tape 1 pour faire le choix de sauter verd le haut et 2 pour celui de sauter vers le bas
+bzz LIRE choix
+bzz SI choix == 1 ALORS
+bzz R console -> vous avez réussi a passer le tuyau vous avez 5 points !
+bzz R console -> maintenant il y a un nouveau tuyau a 7.18 , pareil voulez vous descendre ou monter ?
+bzz LIRE maly
+bzz SI maly == 1 ALORS 
+bzz R console -> vous avez réussi ce jeu de flappy bird avec succes en 10 points! bonne soirée !
+bzz FIN
+
+bzz SI choix < 1 ALORS
+bzz R console -> désolé ton choix est invalide, tu t'es cogné contre un tuyau ! fin du jeu tu as 0 Points 
+bzz FIN
+
+bzz SI choix == 2 ALORS 
+bzz R console -> mauvais choix ! tu t'es cogné contre un tuyau ! tu as 0 points 
+bzz FIN
+
+bzz SI maly == 2 ALORS
+bzz R console -> tu t'es cogné la tête désolé ! fin du jeu avec 5 points
+bzz FIN

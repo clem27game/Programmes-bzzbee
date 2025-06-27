@@ -1,0 +1,10 @@
+# création d'un programme de hack (simulation biensur)
+bzz R console -> -----** Début du Hack -----**
+bzz R couleur rouge -> "Attention vous vous apprêtez a pirater quelqun! voulez vous continuer ?"
+bzz LIRE reponse
+bzz SI reponse -> oui
+bzz R couleur rouge -> "Entrez le nom de la personne que vous souhaitez hacker!"
+bzz LIRE nom
+bzz R couleur vert -> "vous avez hacker avec succès" ;
+bzz MONTRE nom
+bzz AU REVOIR

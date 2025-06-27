@@ -4,3 +4,14 @@ entrypoint = "README.md"
 [nix]
 channel = "stable-24_05"
 packages = ["cowsay"]
+
+[workflows]
+
+[[workflows.workflow]]
+name = "Start BzzBee"
+mode = "sequential"
+author = 10543762
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "./BzzBee/main run main.bzz"

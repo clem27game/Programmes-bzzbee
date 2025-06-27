@@ -1,0 +1,21 @@
+bzz R console -> générateur de couleur!! écrivez un chiffre pour faire apparaître une couleur (de 1 a 4)
+bzz LIRE couleur
+bzz SI couleur == 1 ALORS
+bzz DORT 1500
+bzz R couleur rouge -> "😃🍅Votre couleur est le rouge! ❤️🥰"
+bzz FIN
+
+bzz SI couleur == 2 ALORS
+bzz DORT 1500
+bzz R couleur vert -> "🐉💚votre couleur est le vert!🤢🐍"
+bzz FIN
+
+bzz SI couleur == 3 ALORS 
+bzz DORT 1500
+bzz R couleur bleu -> "🏊🛌votre couleur est le bleu!🐬🪩"
+bzz FIN
+
+bzz SI couleur == 4 ALORS 
+bzz DORT 1500
+bzz R couleur jaune -> "🙄🧡votre couleur est le jaune 😅😽"
+bzz FIN

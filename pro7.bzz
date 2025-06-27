@@ -1,0 +1,15 @@
+bzz R console -> devine qui je suis!
+bzz DORT 2500
+bzz R console -> j'ai 4 pattes, des antennes, des ailes, je sort souvent en été et je suus utile a la pollinisation, quest ce que je suis? ecrit 1 pour répondre : abeille, 2 pour répondre : coccinelle et 3 pour répondre papillon!
+bzz LIRE réponse
+bzz SI réponse == 1 ALORS
+bzz R console -> félicitations ! c'était bien l'abeille bien évidemment!
+bzz FIN
+
+bzz SI réponse == 2 ALORS 
+bzz R console -> non! loupé cetait pas la coccinelle mais bien l'abeille !
+bzz FIN
+
+bzz SI réponse == 3 ALORS
+bzz R console -> non ! pas le papillon ! cetait labeille!
+bzz FIN
