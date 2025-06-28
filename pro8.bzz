@@ -1,0 +1,23 @@
+bzz R console -> 🪩 Générateur de compliment 🪩
+bzz DORT 3500
+bzz R couleur magenta -> "Fait ton choix en ecrivant un chiffre (de 1 a 5)"
+bzz LIRE chiffre
+bzz SI chiffre == 1 ALORS 
+bzz R couleur magenta -> "🧡Tu es magnifique ! ❤️🌷 une vrai beauté"
+bzz FIN
+
+bzz SI chiffre == 2 ALORS 
+bzz R couleur vert -> "💚Tu es ultra gentil(le) un vrai trésor !🌸🍓"
+bzz FIN
+
+bzz SI chiffre == 3 ALORS 
+bzz R couleur bleu -> "🍭🩷 Tu es hyper intelligent(e) , tu depasse Einstein ! continue comme ça🩷🐬"
+bzz FIN
+
+bzz SI chiffre == 4 ALORS 
+bzz R couleur jaune -> "🧶🐝 Tu es vraiment hyper précieux pour tout le monde! 💚🧡"
+bzz FIN
+
+bzz SI chiffre == 5 ALORS
+bzz R couleur cyan -> "🍉🩷 Tu illume vraiment tout le monde autour de toi!🍓🩷"
+bzz FIN
