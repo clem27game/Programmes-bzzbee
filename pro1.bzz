@@ -1,10 +1,59 @@
 # création d'un programme de hack (simulation biensur)
+
 bzz R console -> -----** Début du Hack -----**
-bzz R couleur rouge -> "Attention vous vous apprêtez a pirater quelqun! voulez vous continuer ?"
+
+bzz R couleur rouge -> "Attention vous vous apprêtez a pirater quelqun! voulez vous continuer ? Ecrivez 1 pour oui et 2 pour non "
+
 bzz LIRE reponse
-bzz SI reponse -> oui
+
+bzz SI reponse == 1 ALORS
+bzz R couleur rouge -> "Ecrivez le chiffre correspondant au mot de passe, 1 = lait , 2 = miel, 3 = chaussure, 4 = pollen , 5 = 1234, 6 = ouvrière"
+
+bzz LIRE mdp
+bzz SI mdp == 6 ALORS
+bzz R console -> "Félicitations c'était le bon mot de passe!, maintenant passons a la suite"
 bzz R couleur rouge -> "Entrez le nom de la personne que vous souhaitez hacker!"
 bzz LIRE nom
 bzz R couleur vert -> "vous avez hacker avec succès" ;
 bzz MONTRE nom
-bzz AU REVOIR
+bzz FIN
+
+bzz SI reponse == 2 ALORS
+bzz R couleur jaune -> "Hack annulé"
+bzz FIN
+
+bzz SI réponse > 2 ALORS
+bzz R couleur rouge -> "Réponse invalide! vous devriez ecrire 1 ou 2!"
+bzz FIN
+
+bzz SI réponse < 1 ALORS
+bzz R couleur rouge -> "Réponse invalide! vous devriez ecrire 1 ou 2!"
+bzz FIN
+
+bzz SI mdp == 1 ALORS 
+bzz R couleur rouge -> "Mot de passe incorrect! la police ont ete apeller"
+bzz FIN
+
+bzz SI mdp == 2 ALORS 
+bzz R couleur rouge -> "Mot de passe incorrect pour ce hack accès refusé!"
+bzz FIN
+
+bzz SI mdp == 3 ALORS 
+bzz R couleur rouge -> "Mot de passe incorrect! vous allez finir en prison"
+bzz FIN
+
+bzz SI mdp == 4 ALORS 
+bzz R couleur rouge -> "Mot de passe incorrect! vous avez avertit les gérants anti cybercriminalité"
+bzz FIN
+
+bzz SI mdp == 5 ALORS 
+bzz R couleur rouge -> "Mot de passe incorrect! vous allez avoir des problèmes !"
+bzz FIN
+
+bzz SI mdp < 1 ALORS 
+bzz R couleur rouge -> "Mot de passe Invalide ! "
+bzz FIN
+
+bzz SI mdp > 6 ALORS 
+bzz R couleur rouge -> "Mot de passe invalide!"
+bzz FIN

@@ -3,7 +3,12 @@ bzz DORT 800
 bzz R couleur vert -> "Il était une fois dans une prairie remplis de merveilles..."
 bzz DORT 600 
 bzz R couleur vert -> "UN MONSTRE QUI VOULAIS TOUT DÉVORER !"
-bzz R console -> "fuit pour te sauver dici ! tape 2"
+bzz R couleur vert -> "fuit pour te sauver dici ! tape 1 et pour combattre tape 2!"
 bzz LIRE fuir
-bzz SI fuir > 1 ALORS 
+bzz SI fuir == 1 ALORS 
 bzz R couleur bleue -> "Tu as fuit avec succes! et tu es en sécurité"
+bzz FIN
+
+bzz SI fuir == 2 ALORS 
+bzz R couleur rouge -> "Tu as combattu, mais le monstre etait plus fort que toi :( Désolé tu as terminé z l'hôpital d'urgence et tu es décédé"
+bzz FIN
